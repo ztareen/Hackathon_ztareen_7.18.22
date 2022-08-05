@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <div class="card">
+        <div class="search-wrapper">
+            <input type="text" class="search-bar" id="search" placeholder="Search">
+        </div>
+        <div class="weather">
+            <h2 class="city">Weather in Denver</h2>
+            <h1 class="temp">51°C</h1>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/04d.png" alt="" class="icon" />
+                <div class="description">Cloudy</div>
+            </div>
+            <div class="humidity">Humidity: 60%</div>
+            <div class="wind">Wind speed: 6.2 km</div>
+            <div class="outdoor">At least 30 min of outdoor exposer is advised!</div>
+            <div class="thirsty"><br>If you are extremely thristy make sure to vist:</br></div>
+                <a href="https://www.google.com/maps/search/hydration+shops/@47.6817457,-122.0960338,11z/data=!3m1!4b1?hl=en" class="navlink" style="color:aquamarine">Hydration Locations Near You</a>
+            <div class="shelter">Need shade or some type of covering visit:</div>
+                <a href="https://www.google.com/maps/search/shelters/@47.6817457,-122.0960338,11z/data=!3m1!4b1" class="navlink" style="color:aquamarine">Shelters Near You</a>
+           
+        </div>
+    </div>
+    
+</body>
+</html>
